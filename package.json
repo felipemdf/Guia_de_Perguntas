@@ -1,0 +1,24 @@
+{
+  "name": "guia_de_perguntas",
+  "version": "1.0.0",
+  "description": "Plataforma de perguntas e respostas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemdf/Guia_de_Perguntas.git"
+  },
+  "author": "Felipe Marinho de Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemdf/Guia_de_Perguntas/issues"
+  },
+  "homepage": "https://github.com/felipemdf/Guia_de_Perguntas#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "save": "^2.4.0"
+  }
+}
