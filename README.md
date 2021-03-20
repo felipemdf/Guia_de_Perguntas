@@ -1,53 +1,38 @@
 # Guia_de_Perguntas
-<<<<<<< Updated upstream
+
  Aplicando o conhecimento básico de Node.js e Express na criação de uma plataforma de perguntas e respostas.
-=======
- Aplicando o conhecimento básico de Node.js e Express na criação de uma plataforma de perguntas e respostas
 
->>>>>>> Stashed changes
 
-### 🛠 Tecnologias
-* JavaScript
+
+### :toolbox: Tecnologias
 * Node.js
 * Express
 * EJS
 * Bootstrap
-<<<<<<< Updated upstream
-* Nodemon
-=======
 * sequelize
 * mysql
->>>>>>> Stashed changes
 
+## :computer: Funções
 
-## Funções
-
-
-## Instalações
-<<<<<<< Updated upstream
-=======
-
+## :hammer_and_wrench: Instalações
 Para a instalação das dependências execute os comandos abaixo na pasta do projeto.
 
-Inicie o gerenciador de pacotes npm:
+Inicie o gerenciador de pacotes npm:<br />
 ```npm init ```
 
-Instale o pacote Express para criação das rotas:
+Instale o pacote Express para criação das rotas:<br />
 ```npm install express --save ```
 
-Instale o pacote EJS responsavel pela view engine:
+Instale o pacote EJS responsavel pela view engine:<br />
 ``` npm install ejs  ```
 
-Instale a ferrament ORM Sequelize:
+Instale a ferrament ORM Sequelize:<br />
 ``` npm install --save sequelize ```
 
-Instale o pacote de dependências do mySQL:
+Instale o pacote de dependências do mySQL:<br />
  ``` npm install --save mysql2 ```
 
-Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:
+Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br />
 ``` npm install -g nodemon ```
 
- instale o Bootstrap 
-
-
->>>>>>> Stashed changes
+ instale o Bootstrap <br />
