@@ -3,8 +3,7 @@
  Aplicando o conhecimento básico de Node.js e Express na criação de uma plataforma de perguntas e respostas.
 
 
-
-### :toolbox: Tecnologias
+## :toolbox: Tecnologias
 * Node.js
 * Express
 * EJS
