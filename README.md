@@ -13,7 +13,7 @@
 
 ## :computer: Funções
 
-## :hammer_and_wrench: Instalações
+## :hammer_and_wrench: Preparando o ambiente
 Para a instalação das dependências execute os comandos abaixo na pasta do projeto.
 
 Inicie o gerenciador de pacotes npm:<br />
