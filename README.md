@@ -12,28 +12,28 @@
 * [mysql](https://www.mysql.com)
 
 ## :computer: Funções
- - [x] Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga 
- - [x] Exibir respostas ordenadas da mais antiga para a mais atual
- - [x] Realizar perguntas com título e descrição e armazenar no banco de dados
- - [x] Realizar resposta das perguntas e armazenas no banco de dados
+ :white-check-mark: Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga <br/>
+ :white-check-mark: Exibir respostas ordenadas da mais antiga para a mais atual <br/>
+ :white-check-mark: Realizar perguntas com título e descrição e armazenar no banco de dados <br/>
+ :white-check-mark: Realizar resposta das perguntas e armazenas no banco de dados <br/>
 
 ## :hammer_and_wrench: Preparando o ambiente
 Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
 
-Inicie o gerenciador de pacotes npm:<br />
+Inicie o gerenciador de pacotes npm: <br/>
 ```npm init```
 
-Instale o pacote Express para criação das rotas:<br />
+Instale o pacote Express para criação das rotas: <br/>
 ```npm install express --save```
 
-Instale o pacote EJS responsavel pela view engine:<br />
+Instale o pacote EJS responsavel pela view engine: <br/>
 ```npm install ejs ```
 
-Instale a ferrament ORM Sequelize:<br />
+Instale a ferrament ORM Sequelize: <br/>
 ```npm install --save sequelize```
 
-Instale o pacote de dependências do mySQL:<br />
+Instale o pacote de dependências do mySQL:<br/>
  ```npm install --save mysql2```
 
-Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br />
+Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br/>
 ```npm install -g nodemon```
