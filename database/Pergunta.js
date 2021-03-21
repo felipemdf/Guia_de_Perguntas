@@ -2,7 +2,7 @@ const Sequelize = require ('sequelize');
 const connection = require ('./database');
 
 //cria tabela chamada pergunta e os itens são criados em json
-const Pergunta = connection.define('pergunta',{
+const Pergunta = connection.define('perguntas',{
     titulo:{
         type: Sequelize.STRING,
         allowNull: false //não permite valor nulo

@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const connection = require("./database/database"); //importa o objeto que esta conectado ao bd
-const Pergunta = require("./database/Pergunta") //importa o model que cria a tabela
-
+const Pergunta = require("./database/Pergunta") //Model que representa a tabela perguntas
+const Resposta = require("./database/Resposta") //Model que representa a tabela de resposta
 
 //DATABASE
 connection
@@ -28,14 +28,19 @@ app.use(express.json()); //permite que leia dados de formulario json
 
 
 //RENDERIZAÇÃO
-app.get("/",(req,res) => {
+app.get('/', (req, res) => {
     //procura todas os itens da tabela, equivale ao SELECT *
-    Pergunta.findAll({raw: true}).then(perguntas => { //raw:true faz uma pesquisa com as informações básicas, o then recene as perguntas
-        res.render("index",{ //desenha na tela o arquivo ejs e envia os itens da tabela na variavel perguntas
-            perguntas: perguntas
-        }); 
-    });
-});
+    Pergunta
+      .findAll({ 
+        raw: true,  //raw:true faz uma pesquisa com as informações básicas.
+        order: [['id', 'DESC']] //porque podem ser aplicados outras ordenações
+      })
+      .then(perguntas => { //o then recebe as perguntas,
+        res.render('index', { perguntas }); //desenha na tela o arquivo ejs e envia os itens da tabela na variavel perguntas
+      })
+      .catch((err) => console.log(err));;
+  });
+
 
 app.get("/perguntar",(req,res) => {
     res.render("perguntar");
@@ -52,6 +57,39 @@ app.post("/salvarpergunta",(req,res) => { //recebe o formulario pelo post
 });
 
 
+app.get('/pergunta/:id',(req,res) =>{
+    var id = req.params.id; 
+    Pergunta.findOne({ //busca um dado com condição
+        where: {id:id}
+    }).then(pergunta => { //chama o then se achar a pergunta
+        if(pergunta != undefined){ //pergunta achada
+            Resposta.findAll({ //pega as respostas que possuem o mesmo id da pergunta
+                where: {perguntaId: pergunta.id},
+                order: [
+                    ['id','DESC']
+                ]
+            }).then(respostas => {
+                res.render("pergunta",{
+                    pergunta: pergunta,
+                    respostas: respostas
+                });
+            });
+        }
+        else{ //pergunta nao achada
+            res.redirect("/"); //o redirect e quando uma pagina ja foi renderizada antes
+        }
+    });
+})
+
+app.post("/responder",(req,res) => {
+    var corpo = req.body.corpo; //pega o textarea de nome corpo
+    var perguntaId = req.body.pergunta; //pega o input de nome pergunta
+
+    Resposta.create({
+        corpo: corpo,
+        perguntaId: perguntaId
+    }).then(() => {res.redirect("/pergunta/"+perguntaId);}); //depois de responder redireciona para a pergunta que respondeu
+});
 
 //CRIA SERVIDOR
 app.listen(8080,() => {console.log("App rodando");})
