@@ -12,10 +12,10 @@
 * [mysql](https://www.mysql.com)
 
 ## :computer: Funções
- [x] Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga
- [x] Exibir respostas ordenadas da mais antiga para a mais atual
- [x] Realizar perguntas com título e descrição e armazenar no banco de dados
- [x] Realizar resposta das perguntas e armazenas no banco de dados
+ - [x] Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga 
+ - [x] Exibir respostas ordenadas da mais antiga para a mais atual
+ - [x] Realizar perguntas com título e descrição e armazenar no banco de dados
+ - [x] Realizar resposta das perguntas e armazenas no banco de dados
 
 ## :hammer_and_wrench: Preparando o ambiente
 Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
