@@ -22,8 +22,6 @@
 ## :hammer_and_wrench: Preparando o ambiente
 Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
 ```   
-
-```
 # Clone este repositório: <br/>
  $ git clone <https://github.com/felipemdf/Guia_de_Perguntas.git>
 
@@ -48,3 +46,4 @@ Para a utilização do código é necessário realizar instalação das dependê
 
 # Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br/>
  npm install -g nodemon
+```
