@@ -19,18 +19,8 @@
 :white_check_mark: Realizar perguntas com título e descrição e armazenar no banco de dados <br/>
 :white_check_mark: Realizar resposta das perguntas e armazenas no banco de dados <br/>
 
-##Demonstração
-<h1 align="center">
-  <img alt="Inicio" title="#Inicio" src="./assets/inicio.png" />
-</h1>
-
-<h1 align="center">
-  <img alt="Inicio" title="#Inicio" src="./assets/perguntar.png" />
-</h1>
-
-<h1 align="center">
-  <img alt="Inicio" title="#Inicio" src="./assets/resposta.png" />
-</h1>
+## Demonstração
+![alt-text-1](./assets/inicio.png "title-1") ![alt-text-2](./assets/perguntar.png "title-2") ![alt-text-3](./assets/resposta.png "title-3")
 
 ## :hammer_and_wrench: Preparando o ambiente
 ```   
