@@ -20,7 +20,6 @@
 :white_check_mark: Realizar resposta das perguntas e armazenas no banco de dados <br/>
 
 ## :hammer_and_wrench: Preparando o ambiente
-Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
 ```   
 # Clone este repositório:
  $ git clone <https://github.com/felipemdf/Guia_de_Perguntas.git>
@@ -29,20 +28,25 @@ Para a utilização do código é necessário realizar instalação das dependê
  $ cd Guia_de_Perguntas-main
 
 #Inicie o gerenciador de pacotes npm: 
- npm init
+ $ npm install
 
 # Instale o pacote Express para criação das rotas: <br/>
- npm install express --save
+ $ npm install express --save
 
 # Instale o pacote EJS responsavel pela view engine: <br/>
- npm install ejs 
+ $ npm install ejs 
 
 # Instale a ferrament ORM Sequelize: 
- npm install --save sequelize
+ $ npm install --save sequelize
 
 # Instale o pacote de dependências do mySQL:
- npm install --save mysql2
+ $ npm install --save mysql2
 
 # Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:
- npm install -g nodemon
+ $ npm install -g nodemon
+ 
+# Execute a aplicação
+ $ nodemon index.js
+
+# O servidor inciará na porta:8080 - acesse <http://localhost:8080> 
 ```
