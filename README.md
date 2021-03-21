@@ -1,4 +1,4 @@
-# Guia_de_Perguntas
+# Guia de Perguntas
 
  Plataforma de perguntas e respostas criada durante o curso [Formação Node.js](https://www.udemy.com/course/formacao-nodejs/) do [Guia do Programador](https://www.udemy.com/user/guia-do-programador/) afim de aplicar o conhecimento básico adquirido sobre Node.js.
 
