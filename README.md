@@ -22,14 +22,14 @@
 ## :hammer_and_wrench: Preparando o ambiente
 Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
 ```   
-# Clone este repositório: <br/>
+# Clone este repositório:
  $ git clone <https://github.com/felipemdf/Guia_de_Perguntas.git>
 
 
-# Acesse a pasta do projeto no terminal/cmd <br/>
+# Acesse a pasta do projeto no terminal/cmd 
  $ cd Guia_de_Perguntas-main
 
-#Inicie o gerenciador de pacotes npm: <br/>
+#Inicie o gerenciador de pacotes npm: 
  npm init
 
 # Instale o pacote Express para criação das rotas: <br/>
@@ -38,12 +38,12 @@ Para a utilização do código é necessário realizar instalação das dependê
 # Instale o pacote EJS responsavel pela view engine: <br/>
  npm install ejs 
 
-# Instale a ferrament ORM Sequelize: <br/>
+# Instale a ferrament ORM Sequelize: 
  npm install --save sequelize
 
-# Instale o pacote de dependências do mySQL:<br/>
+# Instale o pacote de dependências do mySQL:
  npm install --save mysql2
 
-# Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br/>
+# Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:
  npm install -g nodemon
 ```
