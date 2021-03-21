@@ -4,34 +4,36 @@
 
 
 ## :toolbox: Tecnologias
-* Node.js
-* Express
-* EJS
-* Bootstrap
-* sequelize
-* mysql
+* [Node.js](https://nodejs.org/pt-br/)
+* [Express](https://expressjs.com/pt-br/)
+* [EJS](https://ejs.co)
+* [Bootstrap](https://getbootstrap.com)
+* [sequelize](https://sequelize.org)
+* [mysql](https://www.mysql.com)
 
 ## :computer: Funções
+ [x] Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga
+ [x] Exibir respostas ordenadas da mais antiga para a mais atual
+ [x] Realizar perguntas com título e descrição e armazenar no banco de dados
+ [x] Realizar resposta das perguntas e armazenas no banco de dados
 
 ## :hammer_and_wrench: Preparando o ambiente
-Para a instalação das dependências execute os comandos abaixo na pasta do projeto.
+Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
 
 Inicie o gerenciador de pacotes npm:<br />
-```npm init ```
+```npm init```
 
 Instale o pacote Express para criação das rotas:<br />
-```npm install express --save ```
+```npm install express --save```
 
 Instale o pacote EJS responsavel pela view engine:<br />
-``` npm install ejs  ```
+```npm install ejs ```
 
 Instale a ferrament ORM Sequelize:<br />
-``` npm install --save sequelize ```
+```npm install --save sequelize```
 
 Instale o pacote de dependências do mySQL:<br />
- ``` npm install --save mysql2 ```
+ ```npm install --save mysql2```
 
 Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br />
-``` npm install -g nodemon ```
-
- instale o Bootstrap <br />
+```npm install -g nodemon```
