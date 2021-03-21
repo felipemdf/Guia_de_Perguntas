@@ -25,7 +25,6 @@ Para a utilização do código é necessário realizar instalação das dependê
 # Clone este repositório:
  $ git clone <https://github.com/felipemdf/Guia_de_Perguntas.git>
 
-
 # Acesse a pasta do projeto no terminal/cmd 
  $ cd Guia_de_Perguntas-main
 
