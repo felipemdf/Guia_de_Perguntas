@@ -2,6 +2,8 @@
 
  Plataforma de perguntas e respostas criada durante o curso [Formação Node.js](https://www.udemy.com/course/formacao-nodejs/) do [Guia do Programador](https://www.udemy.com/user/guia-do-programador/) afim de aplicar o conhecimento básico adquirido sobre Node.js.
 
+##:construction: Status
+🚀 Concluído
 
 ## :toolbox: Tecnologias
 * [Node.js](https://nodejs.org/pt-br/)
@@ -11,29 +13,38 @@
 * [sequelize](https://sequelize.org)
 * [mysql](https://www.mysql.com)
 
-## :computer: Funções
- :white-check-mark: Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga <br/>
- :white-check-mark: Exibir respostas ordenadas da mais antiga para a mais atual <br/>
- :white-check-mark: Realizar perguntas com título e descrição e armazenar no banco de dados <br/>
- :white-check-mark: Realizar resposta das perguntas e armazenas no banco de dados <br/>
+## :computer: Features
+:white_check_mark: Exibir as perguntas já feitas ordenadas da mais atual para a mais antiga <br/>
+:white_check_mark: Exibir respostas ordenadas da mais antiga para a mais atual <br/>
+:white_check_mark: Realizar perguntas com título e descrição e armazenar no banco de dados <br/>
+:white_check_mark: Realizar resposta das perguntas e armazenas no banco de dados <br/>
 
 ## :hammer_and_wrench: Preparando o ambiente
 Para a utilização do código é necessário realizar instalação das dependências, para isso execute os comandos abaixo na pasta do projeto.
+```   
 
-Inicie o gerenciador de pacotes npm: <br/>
-```npm init```
+```
+# Clone este repositório: <br/>
+ $ git clone <https://github.com/felipemdf/Guia_de_Perguntas.git>
 
-Instale o pacote Express para criação das rotas: <br/>
-```npm install express --save```
 
-Instale o pacote EJS responsavel pela view engine: <br/>
-```npm install ejs ```
+# Acesse a pasta do projeto no terminal/cmd <br/>
+ $ cd Guia_de_Perguntas-main
 
-Instale a ferrament ORM Sequelize: <br/>
-```npm install --save sequelize```
+#Inicie o gerenciador de pacotes npm: <br/>
+ npm init
 
-Instale o pacote de dependências do mySQL:<br/>
- ```npm install --save mysql2```
+# Instale o pacote Express para criação das rotas: <br/>
+ npm install express --save
 
-Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br/>
-```npm install -g nodemon```
+# Instale o pacote EJS responsavel pela view engine: <br/>
+ npm install ejs 
+
+# Instale a ferrament ORM Sequelize: <br/>
+ npm install --save sequelize
+
+# Instale o pacote de dependências do mySQL:<br/>
+ npm install --save mysql2
+
+# Opcionalmente pode-se instalar o Nodemon para monitorar e atualizar automaticamente o servidor:<br/>
+ npm install -g nodemon
