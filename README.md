@@ -1,6 +1,6 @@
 # Guia_de_Perguntas
 
- Aplicando o conhecimento básico de Node.js e Express na criação de uma plataforma de perguntas e respostas.
+ Plataforma de perguntas e respostas criada durante o curso [Formação Node.js](https://www.udemy.com/course/formacao-nodejs/) do [Guia do Programador](https://www.udemy.com/user/guia-do-programador/) afim de aplicar o conhecimento básico adquirido sobre Node.js.
 
 
 ## :toolbox: Tecnologias
