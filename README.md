@@ -31,7 +31,7 @@
  $ cd Guia_de_Perguntas-main
 
 #Inicie o gerenciador de pacotes npm: 
- $ npm install
+ $ npm init
 
 # Instale o pacote Express para criação das rotas: <br/>
  $ npm install express --save
